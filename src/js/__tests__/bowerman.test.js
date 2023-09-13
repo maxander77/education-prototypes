@@ -27,7 +27,7 @@ test('Bowerman should lvl up correctly', () => {
 test('Bowerman should take damage correctly', () => {
   const character = new Bowerman('Lord', 'Bowerman');
   character.damage(20);
-  expect(character.health).toBe(80);
+  expect(character.health).toBe(85);
   character.damage(150);
   expect(character.health).toBe(0);
 });

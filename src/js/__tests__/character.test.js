@@ -7,7 +7,7 @@ test('should have at least 2 characters in name', () => {
 });
 
 test('should have at most 10 characters in name', () => {
-  const name = 'ThisIs';
+  const name = 'ThisIsLonger';
   const character = new Character(name);
    expect(name.length).toBeLessThanOrEqual(10);
 });
