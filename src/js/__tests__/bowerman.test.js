@@ -1,4 +1,4 @@
-import Bowerman from '../Bowerman'
+import Bowerman from '../Bowerman';
 
 test('Should be type Bowerman', () => {
   const character = new Bowerman('John', 'Bowerman');
