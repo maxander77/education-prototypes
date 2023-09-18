@@ -27,7 +27,7 @@ test('Swordsman should lvl up correctly', () => {
 test('Swordsman should take damage correctly', () => {
   const character = new Swordsman('Lord', 'Swordsman');
   character.damage(20);
-  expect(character.health).toBe(80);
+  expect(character.health).toBe(82);
   character.damage(150);
   expect(character.health).toBe(0);
 });

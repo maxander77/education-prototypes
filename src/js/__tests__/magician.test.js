@@ -27,7 +27,7 @@ test('Magician should lvl up correctly', () => {
 test('Magician should take damage correctly', () => {
   const character = new Magician('Lord', 'Magician');
   character.damage(20);
-  expect(character.health).toBe(80);
+  expect(character.health).toBe(88);
   character.damage(150);
   expect(character.health).toBe(0);
 });

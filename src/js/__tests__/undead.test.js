@@ -27,7 +27,7 @@ test('Undead should lvl up correctly', () => {
 test('Undead should take damage correctly', () => {
   const character = new Undead('Lord', 'Undead');
   character.damage(20);
-  expect(character.health).toBe(80);
+  expect(character.health).toBe(85);
   character.damage(150);
   expect(character.health).toBe(0);
 });

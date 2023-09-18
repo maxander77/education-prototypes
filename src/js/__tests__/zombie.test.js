@@ -27,7 +27,7 @@ test('Zombie should lvl up correctly', () => {
 test('Zombie should take damage correctly', () => {
   const character = new Zombie('Lord', 'Zombie');
   character.damage(20);
-  expect(character.health).toBe(80);
+  expect(character.health).toBe(82);
   character.damage(150);
   expect(character.health).toBe(0);
 });

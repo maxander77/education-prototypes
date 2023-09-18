@@ -27,7 +27,7 @@ test('Daemon should lvl up correctly', () => {
 test('Daemon should take damage correctly', () => {
   const character = new Daemon('Lord', 'Daemon');
   character.damage(20);
-  expect(character.health).toBe(80);
+  expect(character.health).toBe(88);
   character.damage(150);
   expect(character.health).toBe(0);
 });
